@@ -1,8 +1,8 @@
 ### Hi there 👋, I'm Christina
 
-I'm a researcher at NASA Ames Research Center! I worked for the NASA Kepler mission 🛰️🔭 as part of the Guest Observer Office until the mission closed out. My role at Kepler was to support science and help the community of scientists interested in exoplanet discovery! 🪐 I was a core developer for the [`lightkurve` package](github.com/lightkurve/lightkurve)
+I'm a researcher at NASA Goddard Space Flight Center! I am the Deputy Director of the TESS General Investigator office. Get in touch with us to learn more about how to work with TESS data!
 
-Since then, I have been funding my research through NASA ROSES grants, and I have been funding a small research group. You can see some of the work that myself and my group do [here](github.com/ssdatalab)! We focus on how to use modern data analysis techniques to get the most out of NASA Kepler and TESS data.
+I worked for the NASA Kepler mission 🛰️🔭 as part of the Guest Observer Office until the mission closed out. My role at Kepler was to support science and help the community of scientists interested in exoplanet discovery! 🪐 I was a core developer for the [`lightkurve` package](github.com/lightkurve/lightkurve). After Kepler, I have been funding my research through NASA ROSES grants, and I have been funding a small research group. You can see some of the work that myself and my group do [here](github.com/ssdatalab)! We focus on how to use modern data analysis techniques to get the most out of NASA Kepler and TESS data.
 
 Some of my research areas include
 - 🪐🌍 exoplanet discovery (check out my new paper [here](https://iopscience.iop.org/article/10.3847/1538-3881/ac06cd))
