@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>christinahedges</title>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/base16/solarized-dark.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.3.0/marked.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body>
+    <div class="sidebar">
+        <h2>📁 <span style="font-size: 1.25rem;">explorer</span></h2>
+        <ul>
+            <li>📄 readme.md</li>
+            <li>🧪 research.md</li>
+            <li>📗 publications.md</li>
+            <li>📖 tutorials.md</li>
+            <li>projects/</li>
+            <li>missions/</li>
+            <li>📄 cv.pdf</li>
+        </ul>
+    </div>
+    <div class="editor">
+        <button class="show-welcome-btn" onclick="openPopup()">Show Help Message</button>
+        <div class="tabs" style="height: 3rem; display: flex; align-items: center;">
+            <span style="font-size: 1.2rem; font-weight: bold;">christinahedges
+                <a href="https://github.com/christinahedges" target="_blank" class="github-button">GitHub</a>
+                <a id="email-link" class="email-button">contact</a>
+            </span>
+        </div>
+        <div class="code-window" id="code-window">
+            <!-- content loaded dynamically -->
+        </div>
+        <div class="footer">
+            <span>> last updated April 2025</span>
+        </div>
+
+        <div class="popup-overlay" id="welcome-popup-overlay" style="display: none;">
+            <div class="popup">
+                <div class="popup-header">
+                    <span>📟 System Message</span>
+                    <button class="popup-close" onclick="closePopup()">✕</button>
+                </div>
+                <p>Welcome to my personal site. I'm Dr. Christina Hedges — an astrophysicist and mission scientist at
+                    NASA.
+                </p>
+                <p>Use the index on the left to learn more about my research, software projects, and CV.</p>
+                <button class="popup-enter" onclick="closePopup()">Enter</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

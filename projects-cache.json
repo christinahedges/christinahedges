@@ -1,0 +1,98 @@
+[
+  {
+    "name": "sparse3d",
+    "full_name": "christinahedges/sparse3d",
+    "html_url": "https://github.com/christinahedges/sparse3d",
+    "language": "Python",
+    "description": "Tools to work with astronomy data in a sparse way",
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "updated_at": "2025-02-27T22:57:47Z",
+    "keyword": "Linear Algebra",
+    "demo": "https://christinahedges.github.io/sparse3d/1-astronomy-demo/"
+  },
+  {
+    "name": "lamatrix",
+    "full_name": "PandoraMission/lamatrix",
+    "html_url": "https://github.com/PandoraMission/lamatrix",
+    "language": "Python",
+    "description": "Package for astronomers to make simple linear models",
+    "stargazers_count": 1,
+    "forks_count": 1,
+    "updated_at": "2025-02-25T20:11:30Z",
+    "keyword": "Linear Algebra",
+    "demo": "https://pandoramission.github.io/lamatrix/tutorials/intro-basics.html"
+  },
+  {
+    "name": "tesswcs",
+    "full_name": "tessgi/tesswcs",
+    "html_url": "https://github.com/tessgi/tesswcs",
+    "language": "Python",
+    "description": "Package to obtain actual and predicted WCS objects for NASA TESS Mission",
+    "stargazers_count": 12,
+    "forks_count": 3,
+    "updated_at": "2025-04-06T01:20:14Z",
+    "keyword": "NASA TESS",
+    "demo": "https://tessgi.github.io/tesswcs/tutorial/"
+  },
+  {
+    "name": "tesscube",
+    "full_name": "tessgi/tesscube",
+    "html_url": "https://github.com/tessgi/tesscube",
+    "language": "Python",
+    "description": "A tool to rip data out of MASTs AWS cubes",
+    "stargazers_count": 4,
+    "forks_count": 6,
+    "updated_at": "2025-02-25T21:26:44Z",
+    "keyword": "NASA TESS",
+    "demo": "https://tessgi.github.io/tesscube/tutorials/tutorial1.html"
+  },
+  {
+    "name": "pandora-psf",
+    "full_name": "PandoraMission/pandora-psf",
+    "html_url": "https://github.com/PandoraMission/pandora-psf",
+    "language": "Jupyter Notebook",
+    "description": "Tools to work with the Pandora PSF files",
+    "stargazers_count": 2,
+    "forks_count": 1,
+    "updated_at": "2025-04-16T15:00:59Z",
+    "keyword": "NASA Pandora",
+    "demo": "https://pandoramission.github.io/pandora-psf/example-psf/"
+  },
+  {
+    "name": "pandora-sim",
+    "full_name": "PandoraMission/pandora-sim",
+    "html_url": "https://github.com/PandoraMission/pandora-sim",
+    "language": "Python",
+    "description": "Package containing metadata on the Pandora Satellite  ",
+    "stargazers_count": 3,
+    "forks_count": 4,
+    "updated_at": "2025-04-11T16:56:13Z",
+    "keyword": "NASA Pandora",
+    "demo": ""
+  },
+  {
+    "name": "lightkurve",
+    "full_name": "lightkurve/lightkurve",
+    "html_url": "https://github.com/lightkurve/lightkurve",
+    "language": "Python",
+    "description": "A friendly package for Kepler & TESS time series analysis in Python.",
+    "stargazers_count": 440,
+    "forks_count": 175,
+    "updated_at": "2025-04-18T19:18:33Z",
+    "keyword": "lightkurve",
+    "demo": "https://lightkurve.github.io/lightkurve/tutorials/index.html"
+  },
+  {
+    "name": "lkspacecraft",
+    "full_name": "lightkurve/lkspacecraft",
+    "html_url": "https://github.com/lightkurve/lkspacecraft",
+    "language": "Python",
+    "description": "Package for working with spacecraft orbital properties",
+    "stargazers_count": 1,
+    "forks_count": 1,
+    "updated_at": "2025-02-25T20:07:38Z",
+    "keyword": "lightkurve",
+    "demo": "https://lightkurve.github.io/lkspacecraft/tutorials/finding-spacecraft-position-and-velocity.html"
+  }
+]

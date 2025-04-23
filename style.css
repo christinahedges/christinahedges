@@ -1,0 +1,373 @@
+body {
+    margin: 0;
+    background: #1e1e1e;
+    color: #d4d4d4;
+    font-family: 'IBM Plex Mono', monospace;
+    display: flex;
+    height: 100vh;
+    font-size: 1.05rem;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #252526;
+    padding: 1rem;
+    border-right: 1px solid #3c3c3c;
+}
+
+.sidebar h2 {
+    font-size: 1rem;
+    margin-top: 0;
+    color: #569cd6;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.sidebar li {
+    padding: 0.4rem 0;
+    cursor: pointer;
+    color: #9cdcfe;
+    transition: background 0.2s;
+}
+
+.sidebar li:hover {
+    background: #3c3c3c;
+}
+
+.editor {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.tabs {
+    background: #2d2d2d;
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid #3c3c3c;
+}
+
+.tabs span {
+    margin-right: 1rem;
+    background: #1e1e1e;
+    padding: 0.4rem 0.7rem;
+    border-radius: 4px 4px 0 0;
+    color: #dcdcaa;
+    font-weight: bold;
+}
+
+.code-window {
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    white-space: normal;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.footer {
+    background-color: #1e1e1e;
+    color: #888;
+    padding: 0.5rem 1rem;
+    font-size: 0.85rem;
+    border-top: 1px solid #3c3c3c;
+}
+
+.show-welcome-btn {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: #333;
+    color: #00ff99;
+    font-family: 'IBM Plex Mono', monospace;
+    border: 1px solid #00ff99;
+    padding: 0.3rem 0.6rem;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+.popup-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.popup {
+    width: 550px;
+    background-color: #111;
+    border: 2px solid #00ff99;
+    padding: 2rem;
+    box-shadow: 0 0 15px #00ff99;
+}
+
+.popup-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    color: #00ff99;
+    font-weight: bold;
+}
+
+.popup-close {
+    cursor: pointer;
+    color: #ff4d4d;
+    font-weight: bold;
+    border: none;
+    background: transparent;
+    font-size: 1rem;
+}
+
+.popup p {
+    color: #ccc;
+    margin: 0.5rem 0;
+}
+
+.popup-enter {
+    margin-top: 1.5rem;
+    background: #222;
+    color: #00ff99;
+    border: 1px solid #00ff99;
+    padding: 0.5rem 1rem;
+    font-family: 'IBM Plex Mono', monospace;
+    cursor: pointer;
+}
+
+a {
+    color: #4fc1ff;
+    text-decoration: none;
+    border-bottom: 1px dotted #4fc1ff;
+    transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+    background-color: #333;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+    background-color: inherit;
+    max-width: 1000px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.project-card {
+    background-color: #252526;
+    border: 1px solid #3c3c3c;
+    padding: 1rem;
+    font-family: 'IBM Plex Mono', monospace;
+    color: #d4d4d4;
+    box-shadow: 0 0 10px rgba(0, 255, 153, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.keyword-badge {
+    display: inline-block;
+    width: fit-content;
+    max-width: 100%;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.75rem;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+    background-color: #333;
+    color: #00ff99;
+    border: 1px solid #00ff99;
+}
+
+.project-card[data-keyword~="tess"],
+.project-card[data-keyword~="nasa-tess"] {
+    border-color: #ffcc00;
+}
+
+.project-card[data-keyword~="linear-algebra"] {
+    border-color: #00ffff;
+}
+
+.project-card[data-keyword~="nasa-pandora"] {
+    border-color: #ff6699;
+}
+
+.project-card[data-keyword~="lightkurve"] {
+    border-color: #7fcfff;
+}
+
+.project-card[data-keyword~="tess"] h3,
+.project-card[data-keyword~="nasa-tess"] h3 {
+    color: #ffcc00;
+}
+
+.project-card[data-keyword~="linear-algebra"] h3 {
+    color: #00ffff;
+}
+
+.project-card[data-keyword~="nasa-pandora"] h3 {
+    color: #ff6699;
+}
+
+.project-card[data-keyword~="lightkurve"] h3 {
+    color: #7fcfff;
+}
+
+.project-card h3 {
+    margin-top: 0;
+    font-size: 1.1rem;
+}
+
+.project-card p {
+    font-size: 0.95rem;
+    line-height: 1.4;
+}
+
+.project-meta {
+    font-size: 0.85rem;
+    color: #888;
+    margin-top: 0.5rem;
+}
+
+.project-links a {
+    color: #00ff99;
+    text-decoration: none;
+    border-bottom: 1px dotted #00ff99;
+    margin-right: 1rem;
+}
+
+.project-links a:hover {
+    border-bottom: 1px solid #fff;
+    color: #ffffff;
+}
+
+.project-card[data-keyword~="linear-algebra"] .keyword-badge {
+    color: #00ffff;
+    border: 1px solid #00ffff;
+    background-color: #003f3f;
+}
+
+.project-card[data-keyword~="nasa-tess"] .keyword-badge,
+.project-card[data-keyword~="tess"] .keyword-badge {
+    color: #ffcc00;
+    border: 1px solid #ffcc00;
+    background-color: #3f3f00;
+}
+
+.project-card[data-keyword~="nasa-pandora"] .keyword-badge {
+    color: #ff6699;
+    border: 1px solid #ff6699;
+    background-color: #3f001f;
+}
+
+.project-card[data-keyword~="lightkurve"] .keyword-badge {
+    color: #7fcfff;
+    border: 1px solid #7fcfff;
+    background-color: #003f5c;
+}
+
+.mission-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.mission-card {
+    background-color: #1e1e1e;
+    background-image: radial-gradient(#2d2d2d 1px, transparent 1px);
+    background-size: 6px 6px;
+    border-left: 4px solid #00ff99;
+    padding: 1.5rem;
+    box-shadow: 0 0 20px rgba(0, 255, 153, 0.4), 0 0 40px rgba(0, 255, 153, 0.15);
+    transition: box-shadow 0.3s ease;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.mission-card:hover {
+    box-shadow: 0 0 25px rgba(0, 255, 153, 0.6), 0 0 50px rgba(0, 255, 153, 0.2);
+}
+
+.mission-header {
+    font-size: 0.85rem;
+    color: #888;
+    margin-bottom: 0.5rem;
+}
+
+.mission-title {
+    font-size: 1.5rem;
+    color: #9cdcfe;
+    margin-bottom: 0.5rem;
+}
+
+.mission-description {
+    font-size: 1rem;
+    color: #d4d4d4;
+    margin-bottom: 0.5rem;
+}
+
+.mission-link {
+    margin-top: 1rem;
+}
+
+.mission-link a {
+    display: inline-block;
+    background-color: #00ff99;
+    color: #1e1e1e;
+    padding: 0.4rem 1rem;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'IBM Plex Mono', monospace;
+    transition: background-color 0.2s ease;
+}
+
+.mission-link a:hover {
+    background-color: #00cc7a;
+    color: #fff;
+}
+
+.missions-intro {
+    max-width: 900px;
+    margin: 2rem auto 1rem;
+    padding: 0 1rem;
+    font-family: 'IBM Plex Mono', monospace;
+    color: #d4d4d4;
+}
+
+.email-button {
+    display: inline-block;
+    background-color: #00ff99;
+    color: #1e1e1e;
+    padding: 0.4rem 1rem;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'IBM Plex Mono', monospace;
+    transition: background-color 0.2s ease;
+}
+
+.email-button:hover {
+    background-color: #00cc7a;
+    color: #fff;
+}

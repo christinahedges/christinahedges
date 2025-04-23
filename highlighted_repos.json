@@ -1,0 +1,50 @@
+[
+    {
+        "repo_url": "https://github.com/christinahedges/sparse3d",
+        "blurb": "",
+        "keyword": "Linear Algebra",
+        "demo": "https://christinahedges.github.io/sparse3d/1-astronomy-demo/"
+    },
+    {
+        "repo_url": "https://github.com/pandoramission/lamatrix",
+        "blurb": "",
+        "keyword": "Linear Algebra",
+        "demo": "https://pandoramission.github.io/lamatrix/tutorials/intro-basics.html"
+    },
+    {
+        "repo_url": "https://github.com/tessgi/tesswcs",
+        "blurb": "",
+        "keyword": "NASA TESS",
+        "demo": "https://tessgi.github.io/tesswcs/tutorial/"
+    },
+    {
+        "repo_url": "https://github.com/tessgi/tesscube",
+        "blurb": "",
+        "keyword": "NASA TESS",
+        "demo": "https://tessgi.github.io/tesscube/tutorials/tutorial1.html"
+    },
+    {
+        "repo_url": "https://github.com/pandoramission/pandora-psf",
+        "blurb": "",
+        "keyword": "NASA Pandora",
+        "demo": "https://pandoramission.github.io/pandora-psf/example-psf/"
+    },
+    {
+        "repo_url": "https://github.com/pandoramission/pandora-sim",
+        "blurb": "",
+        "keyword": "NASA Pandora",
+        "demo": ""
+    },
+    {
+        "repo_url": "https://github.com/lightkurve/lightkurve",
+        "blurb": "",
+        "keyword": "lightkurve",
+        "demo": "https://lightkurve.github.io/lightkurve/tutorials/index.html"
+    },
+    {
+        "repo_url": "https://github.com/lightkurve/lkspacecraft",
+        "blurb": "",
+        "keyword": "lightkurve",
+        "demo": "https://lightkurve.github.io/lkspacecraft/tutorials/finding-spacecraft-position-and-velocity.html"
+    }
+]
