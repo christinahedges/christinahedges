@@ -1,11 +1,13 @@
-
-```
+<div class="ascii-wrapper">
+<pre class="ascii-art">
 ▗▄▄▖ ▗▄▄▄▖ ▗▄▄▖▗▄▄▄▖ ▗▄▖ ▗▄▄▖  ▗▄▄▖▗▖ ▗▖
 ▐▌ ▐▌▐▌   ▐▌   ▐▌   ▐▌ ▐▌▐▌ ▐▌▐▌   ▐▌ ▐▌
 ▐▛▀▚▖▐▛▀▀▘ ▝▀▚▖▐▛▀▀▘▐▛▀▜▌▐▛▀▚▖▐▌   ▐▛▀▜▌
 ▐▌ ▐▌▐▙▄▄▖▗▄▄▞▘▐▙▄▄▖▐▌ ▐▌▐▌ ▐▌▝▚▄▄▖▐▌ ▐▌
 ========================================
-```
+</pre>
+<div class="ascii-title-mobile">Research</div>
+</div>
 
 My research focuses on space-based exoplanet missions, stellar astrophysics, and building open-source tools that make NASA mission data accessible and reproducible. As part of my research I detect and characterize transitting exoplanets, asteroids, stars and more using NASA's fleet of astrophysics missions.
 

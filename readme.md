@@ -1,12 +1,12 @@
-```
-
+<div class="ascii-wrapper">
+<pre class="ascii-art">
 ▗▄▄▄ ▗▄▄▖      ▗▄▄▖▗▖ ▗▖▗▄▄▖ ▗▄▄▄▖ ▗▄▄▖▗▄▄▄▖▗▄▄▄▖▗▖  ▗▖ ▗▄▖     ▗▖ ▗▖▗▄▄▄▖▗▄▄▄  ▗▄▄▖▗▄▄▄▖ ▗▄▄▖
-▐▌  █▐▌ ▐▌    ▐▌   ▐▌ ▐▌▐▌ ▐▌  █  ▐▌     █    █  ▐▛▚▖▐▌▐▌ ▐▌    ▐▌ ▐▌▐▌   ▐▌  █▐▌   ▐▌   ▐▌   
+▐▌  █▐▌ ▐▌    ▐▌   ▐▌ ▐▌▐▌ ▐▌  █  ▐▌     █    █  ▐▛▚▖▐▌▐▌ ▐▌    ▐▌ ▐▌▐▌   ▐▌  █▐▌   ▐▌   ▐▌
 ▐▌  █▐▛▀▚▖    ▐▌   ▐▛▀▜▌▐▛▀▚▖  █   ▝▀▚▖  █    █  ▐▌ ▝▜▌▐▛▀▜▌    ▐▛▀▜▌▐▛▀▀▘▐▌  █▐▌▝▜▌▐▛▀▀▘ ▝▀▚▖
 ▐▙▄▄▀▐▌ ▐▌    ▝▚▄▄▖▐▌ ▐▌▐▌ ▐▌▗▄█▄▖▗▄▄▞▘  █  ▗▄█▄▖▐▌  ▐▌▐▌ ▐▌    ▐▌ ▐▌▐▙▄▄▖▐▙▄▄▀▝▚▄▞▘▐▙▄▄▖▗▄▄▞▘
-
-==============================================================================================
-```
+</pre>
+<div class="ascii-title-mobile">Christina Hedges — NASA Astrophysicist</div>
+</div>
 
 I'm **Dr. Christina Hedges**, an astrophysicist, research scientist, and software developer
 working with NASA missions to better understand exoplanets.

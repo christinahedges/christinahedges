@@ -1,10 +1,13 @@
-```
+<div class="ascii-wrapper">
+<pre class="ascii-art">
 ▗▄▄▄▖▗▖ ▗▖▗▄▄▄▖▗▄▖ ▗▄▄▖ ▗▄▄▄▖ ▗▄▖ ▗▖    ▗▄▄▖
-  █  ▐▌ ▐▌  █ ▐▌ ▐▌▐▌ ▐▌  █  ▐▌ ▐▌▐▌   ▐▌   
+  █  ▐▌ ▐▌  █ ▐▌ ▐▌▐▌ ▐▌  █  ▐▌ ▐▌▐▌   ▐▌
   █  ▐▌ ▐▌  █ ▐▌ ▐▌▐▛▀▚▖  █  ▐▛▀▜▌▐▌    ▝▀▚▖
   █  ▝▚▄▞▘  █ ▝▚▄▞▘▐▌ ▐▌▗▄█▄▖▐▌ ▐▌▐▙▄▄▖▗▄▄▞▘
 ============================================
-```
+</pre>
+<div class="ascii-title-mobile">Tutorials</div>
+</div>
 
 On this page are a few of the tutorials I've created to help people in astronomy.
 
